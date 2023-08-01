@@ -1,7 +1,7 @@
 import { Board, BoardState } from "./board";
-import styled from "@emotion/styled";
 import { useMemo, useState } from "react";
 import { generateGame } from "./math";
+import styled from "@emotion/styled";
 
 const StyledApp = styled.div(
   () => `
