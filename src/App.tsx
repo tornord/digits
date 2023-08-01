@@ -1,6 +1,6 @@
 import { Board, BoardState } from "./board";
-import { useMemo, useState } from "react";
 import { generateGame, randomSeed } from "./math";
+import { useMemo, useState } from "react";
 import styled from "@emotion/styled";
 
 const StyledApp = styled.div(
