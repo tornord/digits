@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   base: "/digits/",
   plugins: [react()],
-  build: { sourcemap: true },
+  build: { sourcemap: true, outDir: "docs" },
   test: {
     globals: true,
     environment: "jsdom",
